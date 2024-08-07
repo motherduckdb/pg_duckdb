@@ -13,7 +13,8 @@ pg_duckdb was developed in collaboration with our partners, [Hydra](https://hydr
 * Broad support for Postgres types and functions within analytical context
 * Query external datasets on S3, GCP and Azure (Parquet, Iceberg and Delta Lake)
 * Join native Postgres and analytical data efficiently
-* Allow querying from and writing to MotherDuck tables
+* Seamlessly run queries read and write queries against local data and MotherDuck tables
+* Allow for easy configuration and deployment of DuckDB extensions
 * Columnar indexing of native Postgres tables
 * Real-time synchronization of analytical and transactional data
 * Creation and maintenance of materialized views across table types
