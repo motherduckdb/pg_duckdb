@@ -2,6 +2,8 @@
 
 pg_duckdb is a Postgres extension that embeds DuckDB's columnar-vectorized analytics engine and features into Postgres. We recommend using pg_duckdb to build high performance analytics and data-intensive applications.
 
+Third party developers will be able to extend both DuckDB and the PostgreSQL integration by writing their own DuckDB extensions. Those extensions will be distributed through the DuckDB community extension repository.
+
 pg_duckdb was developed in collaboration with our partners, [Hydra](https://hydra.so) and [MotherDuck](https://motherduck.com).
 
 ## Installation
