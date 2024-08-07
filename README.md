@@ -95,7 +95,7 @@ Please see the [project roadmap][roadmap] for upcoming planned tasks and feature
 
 ### Connect with MotherDuck
 
-pg_duckdb integration with MotherDuck will enable hybrid execution with Differential Storage.
+pg_duckdb integration with MotherDuck will enable dual execution with Differential Storage.
 
 * Zero-copy snapshots and forks
 * Time travel
