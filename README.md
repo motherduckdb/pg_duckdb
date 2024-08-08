@@ -16,8 +16,6 @@ pg_duckdb was developed in collaboration with our partners, [Hydra](https://hydr
 * Seamlessly run read and write queries against native postgres and cloud tables stored in MotherDuck
 * Allow storing data in a columnar format using DuckDBs native files
 * Allow for easy configuration and deployment of DuckDB extensions to enable additional functionality from the DuckDB ecosystem
-* Columnar indexing of native Postgres tables
-* Real-time synchronization of analytical and transactional data
 
 ## Installation
 
