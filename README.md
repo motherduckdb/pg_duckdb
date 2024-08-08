@@ -7,17 +7,17 @@ Third party developers will be able to extend both DuckDB and the PostgreSQL int
 pg_duckdb was developed in collaboration with our partners, [Hydra](https://hydra.so) and [MotherDuck](https://motherduck.com).
 
 
-## Roadmap
+## Goals
 
 * Create and manage analytical tables with good performance on analytical queries
 * Broad support for Postgres types and functions within analytical context
 * Query external datasets on S3, GCP and Azure (Parquet, Iceberg and Delta Lake)
 * Join native Postgres and analytical data efficiently
 * Seamlessly run read and write queries against native postgres and cloud tables stored in MotherDuck
-* Allow for easy configuration and deployment of DuckDB extensions
+* Allow storing data in a columnar format using DuckDBs native files
+* Allow for easy configuration and deployment of DuckDB extensions to enable additional functionality from the DuckDB ecosystem
 * Columnar indexing of native Postgres tables
 * Real-time synchronization of analytical and transactional data
-* Creation and maintenance of materialized views across table types
 
 ## Installation
 
